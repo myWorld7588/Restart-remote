@@ -118,7 +118,6 @@ struct OnboardingView: View {
                             }
                         }
                         .onEnded { _ in
-                            buttonOffset = 0
                             if buttonOffset > buttonWidth / 2 {
                                 buttonOffset = buttonWidth - 80
                                 isOnboardingViewActive = false
